@@ -1,0 +1,12 @@
+Created by elifse on 18.04.2020
+
+This is a concept file with following syntax for each concept.
+# Kullanıcı adı <email> ve şifre bilgisi <password> ile login işlemini tamamla
+* "span.pr-0 > a:nth-of-type(1)" elemente tıkla
+* "3" saniye bekle
+* "[placeholder='E-Mail Address']" elementi bul ve <email> değerini yaz
+* "3" saniye bekle
+* "[placeholder='Password']" elementi bul ve <password> değerini yaz
+* "3" saniye bekle
+* "[src='../../../assets/img/passo-logo-n.png']" elemente tıkla
+* "3" saniye bekle
