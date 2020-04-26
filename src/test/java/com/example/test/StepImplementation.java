@@ -3,9 +3,7 @@ package com.example.test;
 import com.sun.xml.internal.bind.v2.model.core.ElementInfo;
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 
 public class StepImplementation extends BaseTest {
 
@@ -20,10 +18,9 @@ public class StepImplementation extends BaseTest {
 
     @Step("<key> elemente tıkla")
     public void clickElementByCss(String key) {
-       Gauge.captureScreenshot(); //screenshot alıyor.
+        Gauge.captureScreenshot(); //screenshot alıyor.
         Gauge.writeMessage("key tıklandı");
         driver.findElement(By.cssSelector(key)).click();
-
     }
 
     @Step("<key> elementi bul ve <text> değerini yaz")
@@ -32,4 +29,11 @@ public class StepImplementation extends BaseTest {
         Gauge.writeMessage("key tıklandı");
         driver.findElement(By.cssSelector(element)).sendKeys(key);
     }
+
+    @Step("sayfayı kaydır")
+    public void movePage() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("scrollBy(0,2500)");
+    }
+
 }

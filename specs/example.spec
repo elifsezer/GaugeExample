@@ -6,7 +6,12 @@ Specification Heading
 Senaryo1
 --------------------
 Tags:Login
-* Kullanıcı adı "test@gmail.com" ve şifre bilgisi "1234" ile login işlemini tamamla
+* Kullanıcı adı "testnetas3@gmail.com" ve şifre bilgisi "Pass1234" ile login işlemini tamamla
 * "3" saniye bekle
-* ".slick-current[data-slick-index='1'] [alt='Hollywood Vampires']" elemente tıkla
+* "button[_ngcontent-c12]" elemente tıkla
+* "3" saniye bekle
+* "input[pattern='^[a-z0-9]+$']" elementi bul ve "cmylmz" değerini yaz
+* "div[name='searchform'] .passo-icon" elemente tıkla
+* "3" saniye bekle
+* sayfayı kaydır
 * "3" saniye bekle

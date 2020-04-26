@@ -8,5 +8,3 @@ This is a concept file with following syntax for each concept.
 * "3" saniye bekle
 * "[placeholder='Password']" elementi bul ve <password> değerini yaz
 * "3" saniye bekle
-* "[src='../../../assets/img/passo-logo-n.png']" elemente tıkla
-* "3" saniye bekle
